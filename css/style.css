@@ -1,17 +1,23 @@
-/* Typography Declarations */
+/* Overall Typography Declarations */
     body {
     font-family: "minion-pro", Minion Pro, Adobe Garamond Pro, Adobe Caslon Pro, Georgia, serif;
     -webkit-font-smoothing: antialiased;
  }
 
+/* Responsive Design Expressions */
 @media only screen and (max-width: 500px) {
     .masthead {
         padding: 3em 0;
     }
-    .masthead-heading {
-        font-size: 3em;
+   }
+
+@media only screen and (max-width: 976px) {
+    .masthead {
+        padding: 3em 0;
     }
 }
+
+/* Begin Masthead Declarations */
 
 .masthead {
     /* Layout Declarations */
@@ -20,17 +26,24 @@
     width: 100%;
 }
 
-.author {
+.masthead h1 {
     color: #ff9c00;
     font-size: 3.0em;
+    font-weight: 300;
     padding: 10px 0 0 30px;
+    margin-bottom: -35px;
 }
 
-.title {
+.masthead h2 {
     color: #707070;
     font-size: 3.0em;
+    font-weight: 300;
     padding: 0 0 10px 30px;
 }
+/* End Masthead Declarations */
+
+
+/* Begin Menu Declarations */
 
 .menu {
     /* Layout Declarations */
@@ -73,32 +86,48 @@
     font-size: 1.75em;
     text-decoration: none;
 }
+/* End Menu Declarations */
 
-/* Begin Main Body */
-.intro h1 span {
+
+/* Begin Main Body Declarations */
+
+.hero {
+    background: url('http://assets.entrepreneur.com/article/1413519170_gratisography-1024x682.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: table;
+    width: 100%;
+}
+
+.hero .container {
+    display: table-cell;
+    height: 600px
+}
+
+.hero h1 {
+    font-size: 2.50em;
+    font-weight: 100;
+    text-align: left;
+    padding-left: 75px;
+    padding-top: 80px;
     font-style: italic;
-    display: block;
-    font-size: 1.30em;
+    margin-bottom: -25px;
+}
+
+.hero p {
+    font-size: 2.10em;
     font-weight: 100;
-    line-height: 50px;
-    -webkit-font-smoothing: antialiased;
- }
-
- .intro h1 {
-    /* Layout Declarations */
-    display: block;
-    font-size: 2.25em;
-    font-weight: 100;
-    line-height: 50px;
-    margin-left: 150px;
-    margin-top: 150px;
-    -webkit-font-smoothing: antialiased;
- }
-/* End Main Body */
+    text-align: left;
+    padding-left: 75px;
+}
+/* End Main Body Declarations*/
 
 
- .wrap-border {
-    margin-top: 350px;
+/* Begin Footer Declarations */
+.wrap-border {
+    margin-top: 30px;
     font-size: 1em;
     color: #888888;
     text-align: center;
@@ -130,5 +159,6 @@
     white-space: nowrap;
     text-decoration: none;
 }
+/* End Footer Declarations*/
 
 
