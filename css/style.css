@@ -1,0 +1,134 @@
+/* Typography Declarations */
+    body {
+    font-family: "minion-pro", Minion Pro, Adobe Garamond Pro, Adobe Caslon Pro, Georgia, serif;
+    -webkit-font-smoothing: antialiased;
+ }
+
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 3em;
+    }
+}
+
+.masthead {
+    /* Layout Declarations */
+    background: black;
+    height: auto;
+    width: 100%;
+}
+
+.author {
+    color: #ff9c00;
+    font-size: 3.0em;
+    padding: 10px 0 0 30px;
+}
+
+.title {
+    color: #707070;
+    font-size: 3.0em;
+    padding: 0 0 10px 30px;
+}
+
+.menu {
+    /* Layout Declarations */
+    height: 2.0em;
+    text-align: center;
+    margin-top: 3.0em;
+}
+
+.menu ul {
+    margin: 0;
+    padding-top: 1px;
+}
+
+.menu li {
+    /* Layout Declarations */
+    list-style: none;
+    display: inline;
+    padding: 20px 15px 0 15px;
+}
+
+.menu li a {
+    color: black;
+    font-size: 1.75em;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: #ff9c00;
+    font-size: 1.75em;
+    text-decoration: none;
+}
+
+.background {
+    height: auto;
+    width: 85%;
+}
+
+.menu #active a {
+    color: #ff9c00;
+    font-size: 1.75em;
+    text-decoration: none;
+}
+
+/* Begin Main Body */
+.intro h1 span {
+    font-style: italic;
+    display: block;
+    font-size: 1.30em;
+    font-weight: 100;
+    line-height: 50px;
+    -webkit-font-smoothing: antialiased;
+ }
+
+ .intro h1 {
+    /* Layout Declarations */
+    display: block;
+    font-size: 2.25em;
+    font-weight: 100;
+    line-height: 50px;
+    margin-left: 150px;
+    margin-top: 150px;
+    -webkit-font-smoothing: antialiased;
+ }
+/* End Main Body */
+
+
+ .wrap-border {
+    margin-top: 350px;
+    font-size: 1em;
+    color: #888888;
+    text-align: center;
+ }
+
+.wrap-border hr {
+    display: block;
+    width: 150px;
+    margin: 10px auto;
+    height: .5px;
+}
+
+.wrap-border ul li {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 1px 4px;
+    opacity: 0.5;
+}
+
+.wrap-border ul {
+    font-size: 0.75em;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+}
+
+.wrap-border a {
+    cursor: pointer;
+    color: black;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+
