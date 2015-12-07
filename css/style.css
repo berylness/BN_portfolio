@@ -4,7 +4,7 @@
     -webkit-font-smoothing: antialiased;
  }
 
-/* Responsive Design Expressions */
+/* Begin Responsive Design Expressions */
 @media only screen and (max-width: 500px) {
     .masthead {
         padding: 3em 0;
@@ -16,9 +16,10 @@
         padding: 3em 0;
     }
 }
+/* End Responsive Design Expressions */
+
 
 /* Begin Masthead Declarations */
-
 .masthead {
     /* Layout Declarations */
     background: black;
@@ -30,67 +31,60 @@
     color: #ff9c00;
     font-size: 3.0em;
     font-weight: 300;
-    padding: 10px 0 0 30px;
-    margin-bottom: -35px;
+    padding: 10px 0 5px 30px;
+    margin-bottom: -55px;
 }
 
 .masthead h2 {
     color: #707070;
-    font-size: 3.0em;
+    font-size: 2.75em;
     font-weight: 300;
-    padding: 0 0 10px 30px;
+    padding: 10px 0 5px 30px;
 }
 /* End Masthead Declarations */
 
 
-/* Begin Menu Declarations */
-
-.menu {
-    /* Layout Declarations */
-    height: 2.0em;
+/* Begin Nav Menu Declarations */
+.nav-links ul {
+    height: 2.5em;
     text-align: center;
-    margin-top: 3.0em;
+    margin-top: -3.0em;
 }
 
-.menu ul {
+.nav-links ul {
     margin: 0;
     padding-top: 1px;
 }
 
-.menu li {
+.nav-links ul li {
     /* Layout Declarations */
     list-style: none;
     display: inline;
-    padding: 20px 15px 0 15px;
+    padding: 10px 15px 10px 15px;
 }
 
-.menu li a {
+.nav-links ul li a {
     color: black;
     font-size: 1.75em;
     text-decoration: none;
 }
 
-.menu li a:hover {
+.nav-links ul li a:hover {
+    color: #ff9c00;
+    font-size: 1.50em;
+    text-decoration: none;
+}
+
+.nav-links #active a {
     color: #ff9c00;
     font-size: 1.75em;
     text-decoration: none;
 }
+/* End Nav Menu Declarations */
 
-.background {
-    height: auto;
-    width: 85%;
-}
-
-.menu #active a {
-    color: #ff9c00;
-    font-size: 1.75em;
-    text-decoration: none;
-}
-/* End Menu Declarations */
 
 
 /* Begin Main Body Declarations */
-
 .hero {
     background: url('http://assets.entrepreneur.com/article/1413519170_gratisography-1024x682.jpg') no-repeat center center;
     -webkit-background-size: cover;
